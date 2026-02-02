@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import personalGif from "./assets/personal.gif";
 
 export default function Page() {
   const [noCount, setNoCount] = useState(0);
@@ -44,7 +45,7 @@ export default function Page() {
         <>
           <img
             className="h-[200px]"
-            src="https://jumpshare.com/s/AHxt89jqJvSq2XmwOVbg"
+            src={personalGif}
           />
           <h1 className="my-4 text-4xl">Will you be my Valentine?</h1>
           <div className="flex items-center">
